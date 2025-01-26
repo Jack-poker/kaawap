@@ -5,10 +5,18 @@
       "runtime": "nodejs14.x" // or the latest supported version
     }
   },
+
+
+  {
+    "outputDirectory": "dist" // Replace with your actual output directory
+}
+,
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "/api/server.ts"
     }
   ]
+
+  
 }
